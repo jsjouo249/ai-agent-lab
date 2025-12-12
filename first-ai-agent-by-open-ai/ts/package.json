@@ -1,0 +1,22 @@
+{
+  "name": "first-ai-agent-ts",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx main.ts",
+    "2.2": "npx tsx main2.2_firstAgent.ts",
+    "2.3": "npx tsx main2.3_addingMemory.ts",
+    "2.4": "npx tsx main2.4_addingTools.ts",
+    "2.5": "npx tsx main2.5_addingFunctionCalling.ts",
+    "2.6": "npx tsx main2.6_toolResults.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "openai": "^4.73.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
