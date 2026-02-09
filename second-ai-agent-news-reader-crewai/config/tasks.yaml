@@ -1,0 +1,6 @@
+translate_task:
+  description: >
+    Translate {sentence} from English to Korean without any mistakes or misunderstandings
+  expected_output: >
+    A well formatted and grammatically correct translation from English to Korean using proper capitalization of names and places.
+  agent: translator_agent
